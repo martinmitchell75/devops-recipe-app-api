@@ -1,6 +1,6 @@
 ##############################################
 # Create ECR repos for storing Docker images #
-##############################################
+###############################################
 
 resource "aws_ecr_repository" "app" {
   name                 = "recipe-app-api-app"
